@@ -14,7 +14,7 @@
         <th scope="row">{{ item.codComp }}</th>
         <td>{{ item.id }}</td>
         <td>{{ item.titulo }}</td>
-        <td> $50 </td>
+        <td> $200 </td>
         <td>
             <button class="btn btn-danger btn-sm" @click="deletePelicula(item.codComp)">Eliminar</button>
         </td>
@@ -23,7 +23,7 @@
     <td></td>
     <td></td>
     <td></td>
-    <td>Total: ${{ peliculas.length*50 }} </td>
+    <td>Total: ${{ peliculas.length*200 }} </td>
     <td><router-link class="btn btn-success ml-2 btn-sm" to="/PaginaPago">Pagar</router-link><router-link class="btn btn-primary ml-2 btn-sm" to="/CarritoPre">Volver</router-link> </td>
   </table>
 </template>
